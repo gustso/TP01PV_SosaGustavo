@@ -1,6 +1,7 @@
 package ar.edu.unju.fi.ejercicio10.model;
 
 public class Pizza {
+
 	private double diametro;
 	private double precio;
 	private double area;
@@ -62,4 +63,11 @@ public class Pizza {
 		
 		return precio;
 	}
+
+	@Override
+	public String toString() {
+		return "Pizza [precio=" + precio + "]";
+	}
+	
+	
 }

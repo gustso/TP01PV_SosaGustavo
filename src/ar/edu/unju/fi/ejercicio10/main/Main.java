@@ -11,7 +11,10 @@ public class Main {
 		unaPizza.setDiametro(20);
 		unaPizza.setIngredientesEspeciales(false);
 		
+		
 		System.out.println("El precio de esta pizza es: "+ unaPizza.calcularPrecio());
+		
+		System.out.println("uso toString: "+ unaPizza.toString());
 	}
 
 }

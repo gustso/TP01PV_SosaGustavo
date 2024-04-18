@@ -8,7 +8,7 @@ public class Main {
 	        int j = 40;
 
 	        // Bucle for para recorrer la secuencia
-	        for (;j >= 0; j--, i++) {
+	        for (;j > 0; j--, i++) {
 	            // 40 * 2, 39 * 3, 38 * 4
 	            System.out.print(j * i + " ");
 	        }
